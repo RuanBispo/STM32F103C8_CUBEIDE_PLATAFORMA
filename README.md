@@ -3,3 +3,4 @@
 
  Projetos implementados até então:
   - EX1_USB_CDC
+  - EX2_HC-SR04_TIMER_DELAY_US (Sensor Ultrassom)
