@@ -123,7 +123,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_TogglePin(STM_LED_PIN_GPIO_Port, STM_LED_PIN_Pin); //Pisca led da placa (GPIOC, GPIO_PIN_13)
-	  HAL_Delay(100);   										  //Delay em milisegundos
+	  HAL_Delay(500);   										  //Delay em milisegundos
   }
   /* USER CODE END 3 */
 }

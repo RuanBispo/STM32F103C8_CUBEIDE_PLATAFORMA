@@ -153,12 +153,11 @@ int main(void)
  80001bc:	f44f 5100 	mov.w	r1, #8192	; 0x2000
  80001c0:	4803      	ldr	r0, [pc, #12]	; (80001d0 <main+0x28>)
  80001c2:	f000 fc77 	bl	8000ab4 <HAL_GPIO_TogglePin>
-	  HAL_Delay(100);   										  //Delay em milisegundos
- 80001c6:	2064      	movs	r0, #100	; 0x64
- 80001c8:	f000 f9d2 	bl	8000570 <HAL_Delay>
+	  HAL_Delay(500);   										  //Delay em milisegundos
+ 80001c6:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
+ 80001ca:	f000 f9d1 	bl	8000570 <HAL_Delay>
 	  HAL_GPIO_TogglePin(STM_LED_PIN_GPIO_Port, STM_LED_PIN_Pin); //Pisca led da placa (GPIOC, GPIO_PIN_13)
- 80001cc:	e7f6      	b.n	80001bc <main+0x14>
- 80001ce:	bf00      	nop
+ 80001ce:	e7f5      	b.n	80001bc <main+0x14>
  80001d0:	40011000 	.word	0x40011000
 
 080001d4 <SystemClock_Config>:
