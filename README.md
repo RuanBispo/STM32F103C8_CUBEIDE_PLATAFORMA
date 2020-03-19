@@ -4,6 +4,7 @@
  Projetos implementados até então:
   - EX1_USB_CDC
   - EX2_HC-SR04_TIMER_DELAY_US (Sensor Ultrassom)
+  - EX3_PWM_TIMER (Servo motor)
 
 Códigos de implementação básica para facilitar o aprendizado da plataforma. Sugestões de implementação, dúvidas ou melhorias são bem vindas!
 
