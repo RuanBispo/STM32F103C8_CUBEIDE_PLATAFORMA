@@ -18,6 +18,10 @@
   * 		 Este código exemplifica a componente de comunicação RECEPTORA de
   * 		 dados. 
   *
+  *			 OBS: O chip testado estava com problemas de comunicação, para 
+  *			      solucionar o problema foi soldado um capacitor na alimentação
+  *               de ceramica com 100 nF
+  *
   *
   * @Configurações:
   *   		 Clock   - 72 MHz
