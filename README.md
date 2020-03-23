@@ -8,6 +8,7 @@
   - EX2_HC-SR04_TIMER_DELAY_US (Sensor Ultrassom)
   - EX3_PWM_TIMER (Servo motor)
   - EX4_CONVERSOR_AD
+  - EX5_MPU9250_I2C (Serve para MPU6050 também)
 
 Códigos de implementação básica para facilitar o aprendizado da plataforma. Sugestões de implementação, dúvidas ou melhorias são bem vindas!
 
