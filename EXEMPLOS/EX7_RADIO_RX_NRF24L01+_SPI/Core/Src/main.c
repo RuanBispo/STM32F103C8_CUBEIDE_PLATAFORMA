@@ -4,7 +4,7 @@
   * @file           : main.c
   * @brief          : Main program body
   ******************************************************************************
-  *						 EXEMPLO DE PWM MOTOR DC (stm32f103c8)
+  *						 EXEMPLO DE RADIO RECEPTOR (stm32f103c8)
   ******************************************************************************
   * Aluno:        Ruan Robert Bispo dos Santos                            2019.2
   * Orientadores: Lucas Molina e Elyson Adan Nunes Carvalho
@@ -16,8 +16,7 @@
   * 		 (MY_NRF24.h), (MY_NRF24.c) e (nRF24L01.h)
   * 		 Ambos alocados nas pastas: Core/Src(para .c) e Core/Inc(para .h)
   * 		 Este código exemplifica a componente de comunicação RECEPTORA de
-  * 		 dados. Para isso foi adaptada uma a biblioteca para a realidade
-  * 		 do STM32 na CUBE_IDE.
+  * 		 dados. 
   *
   *
   * @Configurações:
