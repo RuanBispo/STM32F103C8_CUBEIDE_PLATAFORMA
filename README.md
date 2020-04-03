@@ -13,6 +13,9 @@
   - EX7_RADIO_RX_NRF24L01+_SPI (Receptor)
   - EX8_RADIO_TX_NRF24L01+_SPI (Transmissor)
 
+Link para arquivos da placa desenvolvida (EasyEDA):
+https://easyeda.com/ruanrobert00.rr/stm32f103c8_placa_completa_v1
+
 Códigos de implementação básica para facilitar o aprendizado da plataforma. Sugestões de implementação, dúvidas ou melhorias são bem vindas!
 
 Contato: ruanrobert00@hotmail.com
