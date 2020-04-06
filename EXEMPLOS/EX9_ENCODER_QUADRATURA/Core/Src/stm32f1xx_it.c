@@ -259,8 +259,13 @@ void TIM3_IRQHandler(void)
   POSICAO_ATUAL1 = TIM1->CNT;
   POSICAO_ATUAL2 = TIM2->CNT;
 
-  VELOCIDADE_ENCODER1 = (POSICAO_ATUAL1 - POSICAO_ANTERIOR1)/1000; //tempo é fixo de 1kHz
-  VELOCIDADE_ENCODER2 = (POSICAO_ATUAL2 - POSICAO_ANTERIOR2)/1000; //tempo é fixo de 1kHz
+  VELOCIDADE_ENCODER1 = (POSICAO_ATUAL1 - POSICAO_ANTERIOR1)*1000; //tempo é fixo de 1ms
+  VELOCIDADE_ENCODER2 = (POSICAO_ATUAL2 - POSICAO_ANTERIOR2)*1000; //tempo é fixo de 1ms
+  //Valor dado em pulsos por segundo
+
+  //OBS: para converter para rpm basta dividir pela escala total e multiplicar por 60 (60/1440)
+  //  [( pulsos )] *   60 (segundo)  * 1 (rotações)
+  //  [(segundo)]       1 (minuto)   1440 (pulsos)
 
   ///////////////////////////////////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////////////////////////////////
