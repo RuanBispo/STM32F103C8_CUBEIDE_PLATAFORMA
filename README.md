@@ -12,6 +12,7 @@
   - EX6_PWM_MOTOR_DC
   - EX7_RADIO_RX_NRF24L01+_SPI (Receptor)
   - EX8_RADIO_TX_NRF24L01+_SPI (Transmissor)
+  - EX9_ENCODER_QUADRATURA (Posição e Velocidade)
 
 Link para arquivos da placa desenvolvida (EasyEDA):
 https://easyeda.com/ruanrobert00.rr/stm32f103c8_placa_completa_v1
